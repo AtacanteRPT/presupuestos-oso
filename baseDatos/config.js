@@ -1,8 +1,9 @@
 var config = {
-    host: '104.154.132.208',
+    host: 'localhost',
     user: 'root',
-    password: 'presupuestos-oso',
-    database: 'empresu'
+    password: '',
+    database: 'empresu',
+    port : '3306'
 };
 
 module.exports = config;
