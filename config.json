@@ -1,0 +1,7 @@
+{
+  "GCLOUD_PROJECT": "id-presupuestos-oso",
+  "DATA_BACKEND": "cloudsql",
+  "MYSQL_USER": "nodejsapp",
+  "MYSQL_PASSWORD": "presupuestos-oso",
+  "MYSQL_HOST": "200.26.11.0"
+}

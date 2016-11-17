@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>EMPRESU</title>
+    <% include ../partes/imports%>
+
+</head>
+
+<body>
+    <% include ../partes/header %>
+        <div class="container">
+            <div class="row">
+                <h4> Registrarse</h4>
+                <form method='POST' class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input   type="text" name='nombre' class="validate">
+                            <label for="disabled">Nombre</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" name='email' type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="password" name='password' type="password" class="validate">
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <button type="submit" class="btn green">REGISTRARSE</button>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+
+
+</body>
+
+</html>

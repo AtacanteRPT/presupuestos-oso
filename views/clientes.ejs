@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= subtitulo %>
+    </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <form action="" method='POST'>
+        <input type="number" name='id' placeholder="id">
+        <input type="text" name ='nombre' placeholder="nombre ">
+        <button type="submit">Adicionar </button>
+    </form>
+    <%for(var i = 0 ; i < clientes.length; i++){%>
+        <h3>ID : <%=clientes[i].id%>
+        </h3>
+        <h3>Nombre : <%=clientes[i].nombre%>
+        </h3>
+        <%}%>
+</body>
+
+</html>
